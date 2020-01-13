@@ -1,0 +1,97 @@
+body{
+    background: lightgray;
+}
+
+.container{
+    display: flex;
+    align-items: center; 
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    flex-wrap: nowrap;
+}
+
+.head{
+    background: white;
+    margin: 20px 80px;
+    width: 1050px;
+    margin: auto;
+
+    
+}
+
+.ytico{
+    width: 80px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center; 
+    
+    
+}
+
+.youtubeico{
+    display: flex;
+    align-items: center; 
+    padding-left: 30px;
+
+}
+.sico{
+    width: 20px;
+    border:2px solid grey;
+    vertical-align:middle
+    
+    
+}
+
+.bico{
+    width: 20px;
+}
+
+.fsearch{
+    width: 700px;
+    
+
+}
+
+.sbar{
+   width: 770px;
+   padding-top: 10px;
+   padding-left: 40px;
+   display: flex;
+   vertical-align: center;
+   align-items: center;
+   /* justify-content: space-around; */
+    
+}
+
+.upasign{
+    width:110px;
+   padding-left: 10px;
+   vertical-align: center;
+   
+}
+
+.ui{
+    width: 14px;
+}
+
+.sign{
+    background: blue;
+    width: 25px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.sign a{
+    color: #fff;
+    text-decoration: none;
+}
