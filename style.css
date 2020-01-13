@@ -5,6 +5,7 @@ body{
 .container{
     display: flex;
     align-items: center; 
+    flex-direction: column;
     
 }
 
@@ -94,4 +95,64 @@ body{
 .sign a{
     color: #fff;
     text-decoration: none;
+}
+
+.subs-img{
+    height: 30px;
+    width: 100px;
+}
+
+#plus-icon{
+    margin-left: 0;
+}
+.icon{
+    height: 25px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.video-info{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid darkgray;
+    padding-bottom: 5px;
+}
+
+.sub-info{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.subs-img, .subs, .channel-name{
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.subs-count{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.viewers{
+    margin-left: auto;
+}
+
+.subs{
+    border: 1px solid darkgray;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.extra-icons{
+    display: flex;
+    align-items: center;
+}
+
+.likes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
 }

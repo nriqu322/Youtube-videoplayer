@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,68 +7,103 @@
     <link rel="stylesheet" href="style.css">
     <title>Youtube</title>
 </head>
+
 <body>
-    
+
     <div class="container">
 
         <header class="head">
-                <div class="menu">
+            <div class="menu">
 
-                    <div class="youtubeico">
-                        <!-- youtube logo -->
-                        <img src="/media/ui.png" alt="" class="ui">
-                        <img src="/media/yt-ico.png" alt="youtube-ico" class="ytico">
-                    </div>
-                        
-                    <div class="sbar">
-                           <form action="">
-                                <input name="search" type="text" value="Search" class="fsearch"/> 
-                                <img src="/media/search.png" alt="search-ico" class="sico">
-                           </form>
-
-                           
-                        </div>
-
-                        <div class="upasign">
-                                <!-- upload button // sign in -->
-                                <img src="/media/upload-button.png" alt="" class="bico">
-                                <a href="http://" class="sign">Sign in</a>
-                            </div>
-            
+                <div class="youtubeico">
+                    <!-- youtube logo -->
+                    <img src="media/ui.png" alt="" class="ui">
+                    <img src="media/yt-ico.png" alt="youtube-ico" class="ytico">
                 </div>
 
+                <div class="sbar">
+                    <form action="">
+                        <input name="search" type="text" value="Search" class="fsearch" />
+                        <img src="media/search.png" alt="search-ico" class="sico">
+                    </form>
+
+
+                </div>
+
+                <div class="upasign">
+                    <!-- upload button // sign in -->
+                    <img src="media/upload-button.png" alt="" class="bico">
+                    <a href="http://" class="sign">Sign in</a>
+                </div>
+
+            </div>
+
         </header>
-        
+
 
         <aside>
 
-            <div> 
-                            <!-- aside bar -->
+            <div>
+                <!-- aside bar -->
             </div>
 
         </aside>
-        
+
         <section>
-            <div>
-                        <!-- video embbed -->
-            
+            <div class="principal-video">
+                <!-- video embbed -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/FH_hM_QgscE" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="video-title">
+                <h1>Clash-A-Rama: Clashmas Special (Clash of Clans)</h1>
+            </div>
+            <div class="video-info">
+                <img class="channel-icon" src="media/COC-icon.jpg" alt="Channel Icon">
+                <div class="sub-info">
+                    <p class="channel-name">Clash of Clans</p>
+                    <div class="subs-count">
+                        <img class="subs-img" src="media/subscribe-icon.png" alt="subscribe-icon">
+                        <p class="subs">7,583</p>
+                    </div>
+                </div>
+                <p class="viewers">120,306 views</p>
             </div>
 
-        </section>
-        
+            <div class="extra-icons">
+                <img class="icon" id="plus-icon" src="media/plus-icon.png" alt="plus-icon">
+                <p>Add to</p>
+                <img class="icon" src="media/share-icon.png" alt="share-icon">
+                <p>Share</p>
+                <img class="icon" src="media/dot-icon.png" alt="dot-icon">
+                <p>More</p>
+                <div class="likes">
+                    <img class="icon" src="media/like-icon.jpg" alt="like-icon">
+                    <p>1,232</p>
+                    <img class="icon" src="media/dislike-icon.png" alt="dislike-icon">
+                    <p>79</p>
+                </div>
+            </div>
 
-        
+
+
+        </section>
+
+
+
         <footer>
 
             <div>
-                
+
             </div>
 
         </footer>
 
-        
+
 
     </div>
-    
+
 </body>
+
 </html>
