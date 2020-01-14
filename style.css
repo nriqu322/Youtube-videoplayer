@@ -21,7 +21,6 @@ body{
 
 .head{
     background: white;
-    margin: 20px 80px;
     width: 1050px;
     margin: auto;
     height: 50px;
@@ -325,13 +324,13 @@ aside{
 #show-more{
     color: rgb(100, 98, 98);
     text-align: center;
-    width:500px
+    }
 /* CSS aside bar*/
 
 
 
 /* The switch - the box around the slider */
-.switch {
+.switch{
     position: relative;
     display: inline-block;
     width: 30px;
@@ -394,3 +393,87 @@ aside{
     border-radius: 50%;
   }
   /* The switch - the box around the slider */
+
+  
+  /* footer */
+
+  footer{
+      background: white;
+      width: 1050px;
+      margin: auto;
+  }
+
+  .btnf{
+    height: 40px;
+    background: lightgray;
+    margin-left: 25px;
+    position: relative;
+}
+
+#History-btn{
+    width:90px;
+    text-align: center;
+    background-image: url('media/history-icon.png');
+    background-size: 25px 30px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#History-span{
+    margin-left: 20px;
+}
+
+#Language-btn{
+    width:170px;
+    background-image: url('media/language-icon.png');
+    background-size: 25px 30px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#Language-span{
+    margin-left: 20px;
+}
+
+#Help-btn{
+    width:90px;
+    background-image: url('media/help-icon.png');
+    background-size: 25px 25px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#Help-span{
+    margin-left: 20px;
+}
+
+.setting-bar{
+    height: 90px;
+    width:1050;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid darkgray;
+    margin: 0px 15px;}
+   
+    
+
+    .footer-menu1{
+        list-style-type: none;
+        margin-bottom: 6px;
+    }
+
+    .footer-menu2{
+        list-style-type: none;
+        font-size: 12px;
+        color: rgb(117, 116, 116);
+        margin: 6px 0px;
+    }
+    ul li{
+        display: inline;
+        margin-left: 25px;
+      }
+
+      #first-line{
+        margin-left: 0;
+      }
