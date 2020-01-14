@@ -127,12 +127,42 @@ body{
 #plus-icon{
     margin-left: 0;
 }
+.btn{
+    height: 25px;
+    width: 30px;
+    margin-left: 10px;
+    position: relative;
+}
+#share-btn{
+    background-image: url('media/share-icon.png');
+    background-size: 25px 30px;
+    background-position: center;
+}
+#plus-btn{
+    background-image: url('media/plus-icon.png');
+    background-size: 25px 30px;
+    background-position: center;
+}
+#dot-btn{
+    background-image: url('media/dot-icon.png');
+    background-size: 25px 30px;
+    background-position: center;
+}
+#like-btn{
+    background-image: url('media/like-icon.jpg');
+    background-size: 25px 30px;
+    background-position: center;
+}
+#dislike-btn{
+    background-image: url('media/dislike-icon.png');
+    background-size: 25px 30px;
+    background-position: center;
+}
 .icon{
     height: 25px;
     width: 30px;
     margin-left: 10px;
 }
-
 .video-info{
     display: flex;
     align-items: center;
