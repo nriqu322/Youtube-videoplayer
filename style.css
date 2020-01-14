@@ -9,7 +9,10 @@ body{
     
 }
 
-
+.main-container{
+    display:-flex;
+    flex-direction: column ;
+}
 
 .head{
     background: white;
@@ -210,3 +213,35 @@ body{
 }
 
 /* CSS main video*/
+
+/* CSS aside bar*/
+.thumbnail img{
+    height: 90px;
+    width: 160px;
+}
+
+.duration{
+    margin-bottom: 0px;
+    margin-top: -20px;
+    background-color: darkgray;
+
+}  
+.thumbnail-container{
+    display: flex;
+    align-items: center;
+}
+.thumbnail-duration{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+.thumbnail-info{
+    display: flex;
+    flex-direction: column;
+}
+.thumbnail-title, .thumbnail-channel, .thumbnail-views, a{
+    margin: 2px;
+    color:black;
+    text-decoration: none;
+}
+/* CSS aside bar*/
