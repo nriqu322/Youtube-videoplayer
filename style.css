@@ -9,90 +9,107 @@ body{
     
 }
 
-.menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; 
-    flex-wrap: nowrap;
-}
+
 
 .head{
     background: white;
     margin: 20px 80px;
     width: 1050px;
     margin: auto;
-
-    
+    height: 50px;
 }
 
-.ytico{
-    width: 80px;
-    padding-left: 20px;
+.menu{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center; 
-    
-    
+    flex-wrap: nowrap;
+    height: 50px;
 }
 
-.youtubeico{
+
+.youtubelogo{
     display: flex;
     align-items: center; 
     padding-left: 30px;
-
-}
-.sico{
-    width: 20px;
-    border:2px solid grey;
-    vertical-align:middle
-    
-    
 }
 
-.bico{
-    width: 20px;
+.youtube-ico{
+    width: 80px;
+    padding-left: 20px;
 }
 
-.fsearch{
-    width: 700px;
-    
-
-}
-
-.sbar{
-   width: 770px;
-   padding-top: 10px;
-   padding-left: 40px;
-   display: flex;
-   vertical-align: center;
-   align-items: center;
-   /* justify-content: space-around; */
-    
-}
-
-.upasign{
-    width:110px;
-   padding-left: 10px;
-   vertical-align: center;
-   
-}
-
-.ui{
+.ui-button{
     width: 14px;
 }
 
-.sign{
-    background: blue;
-    width: 25px;
+
+.searchbar{
+    width: 679px;
+    padding-left: 40px;
+    display: flex;
+    height: 21px;
+ }
+
+ .form{
+    width: 679px;
+    display: flex;
+    align-items: center;
+    height: 21px;
+ }
+
+
+.search-icon{
+    width: 36px;
+    height: 21px;
+    border:0.5px solid lightgrey;
+    padding: 4px 12px;
+    box-sizing: border-box; 
+    align-items: center;
+    background: rgb(248, 248, 248);
+    
+}
+
+.form-search{
+    width: 650px;
+    align-items: center;
+
+}
+
+
+.up-sign{
+    width:150px;
+   display: flex;
+   align-items: center;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+}
+
+
+
+.up-button{
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.sign-button{
+    background: rgb(22, 122, 198);;
+    width: 45px;
+    height: 21px;
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 11px;
     margin: 10px;
     padding: 5px;
     box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.sign a{
+.sign-button a{
     color: #fff;
     text-decoration: none;
 }
