@@ -127,6 +127,10 @@ body{
 
 /* CSS main video*/
 
+.main-container{
+    align-items: flex-start;
+}
+
 .section-video{
     background: white;
     
@@ -181,17 +185,26 @@ body{
     align-items: center;
     border-bottom: 2px solid darkgray;
     padding-bottom: 5px;
+    margin: 0px 10px;
 }
 
+.video-title{
+    margin: 0px 10px;
+}
 .sub-info{
     display: flex;
     flex-direction: column;
     margin: 0px;
 }
 
-.subs-img, .subs, .channel-name{
+.subs-img,.channel-name{
     margin: 0;
     padding-left: 1rem;
+}
+
+.subs{
+    margin: 0;
+   ;
 }
 
 .subs-count{
@@ -208,11 +221,13 @@ body{
     border: 1px solid darkgray;
     padding-top: 4px;
     padding-bottom: 4px;
+    text-align: center;
 }
 
 .extra-icons{
     display: flex;
     align-items: center;
+    margin: 0px 10px;
 }
 
 .likes{
@@ -222,6 +237,14 @@ body{
     margin-left: auto;
 }
 
+.info-section{
+    border-top: 10px solid lightgray;
+    border-bottom: 1px solid darkgray;
+}
+
+#info-paragraph{
+    margin-top: -15px;
+}
 /* CSS main video*/
 
 /* CSS aside bar*/
@@ -300,10 +323,9 @@ aside{
 }
 
 #show-more{
-    color: darkgray;
+    color: rgb(100, 98, 98);
     text-align: center;
-    
-}
+    width:500px
 /* CSS aside bar*/
 
 
