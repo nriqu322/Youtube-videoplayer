@@ -28,19 +28,19 @@ body{
     height: 50px;
 }
 
-
+/* CSS Nav BAR */
 .youtubelogo{
     display: flex;
     align-items: center; 
     padding-left: 30px;
 }
 
-.youtube-ico{
+#youtube-ico{
     width: 80px;
     padding-left: 20px;
 }
 
-.ui-button{
+#ui-button{
     width: 14px;
 }
 
@@ -71,7 +71,7 @@ body{
     
 }
 
-.form-search{
+#form-search{
     width: 650px;
     align-items: center;
 
@@ -88,7 +88,7 @@ body{
 
 
 
-.up-button{
+#up-button{
     width: 20px;
     margin-right: 10px;
     margin-left: 20px;
@@ -113,6 +113,11 @@ body{
     color: #fff;
     text-decoration: none;
 }
+
+/* CSS Nav BAR */
+
+
+/* CSS main video*/
 
 .subs-img{
     height: 30px;
@@ -173,3 +178,5 @@ body{
     align-items: center;
     margin-left: auto;
 }
+
+/* CSS main video*/
