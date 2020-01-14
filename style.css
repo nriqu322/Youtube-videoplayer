@@ -2,6 +2,10 @@ body{
     background: lightgray;
 }
 
+#left { width: 70%; } 
+
+#rigth { width: 30%;}
+
 .container{
     display: flex;
     align-items: center; 
@@ -123,6 +127,11 @@ body{
 
 /* CSS main video*/
 
+.section-video{
+    background: white;
+    
+}
+
 .subs-img{
     height: 30px;
     width: 100px;
@@ -216,6 +225,31 @@ body{
 /* CSS main video*/
 
 /* CSS aside bar*/
+
+.auto-play{
+margin: 5px 0px;
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+}
+
+.span-auto-play{
+display: flex;
+align-items: center;
+color: darkgray;
+}
+.up-next{
+    padding-bottom: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    
+}
+
+.copy-thumbnail{
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+}
+
 .thumbnail img{
     height: 90px;
     width: 160px;
@@ -230,6 +264,9 @@ body{
 .thumbnail-container{
     display: flex;
     align-items: center;
+    width:150px;
+    
+    
 }
 .thumbnail-duration{
     display: flex;
@@ -239,15 +276,99 @@ body{
 .thumbnail-info{
     display: flex;
     flex-direction: column;
+    width:150px;
+    margin: 10px;
 }
 .thumbnail-title, .thumbnail-channel, .thumbnail-views, a{
     margin: 2px;
     color:black;
     text-decoration: none;
+    width: 150px;
+}
+
+
+
+.thumbnail-channel, .thumbnail-views{
+    font-size: 16px;
+    color:rgb(90, 90, 90);
 }
 aside{
     background-color: whitesmoke;
     margin-left: 20px;
     box-sizing: border-box;
+    width: 490;
+}
+
+#show-more{
+    color: darkgray;
+    text-align: center;
+    
 }
 /* CSS aside bar*/
+
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 17px;
+    margin-left: 10px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 13px;
+    left: 4px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 17px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  /* The switch - the box around the slider */
