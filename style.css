@@ -51,7 +51,6 @@ body{
     width: 14px;
 }
 
-
 .searchbar{
     width: 679px;
     padding-left: 40px;
@@ -66,7 +65,6 @@ body{
     height: 21px;
  }
 
-
 .search-icon{
     width: 36px;
     height: 21px;
@@ -74,16 +72,13 @@ body{
     padding: 4px 12px;
     box-sizing: border-box; 
     align-items: center;
-    background: rgb(248, 248, 248);
-    
+    background: rgb(248, 248, 248);  
 }
 
 #form-search{
     width: 650px;
     align-items: center;
-
 }
-
 
 .up-sign{
     width:150px;
@@ -92,8 +87,6 @@ body{
    flex-wrap: nowrap;
    justify-content: space-around;
 }
-
-
 
 #up-button{
     width: 20px;
@@ -120,12 +113,10 @@ body{
     color: #fff;
     text-decoration: none;
 }
-
 /* CSS Nav BAR */
 
 
 /* CSS main video*/
-
 .main-container{
     align-items: flex-start;
 }
@@ -179,6 +170,7 @@ body{
     width: 30px;
     margin-left: 10px;
 }
+
 .video-info{
     display: flex;
     align-items: center;
@@ -190,6 +182,7 @@ body{
 .video-title{
     margin: 0px 10px;
 }
+
 .sub-info{
     display: flex;
     flex-direction: column;
@@ -247,7 +240,6 @@ body{
 /* CSS main video*/
 
 /* CSS aside bar*/
-
 .auto-play{
 margin: 5px 0px;
 display: flex;
@@ -264,7 +256,6 @@ color: darkgray;
     padding-bottom: 10px;
     margin: 10px;
     box-sizing: border-box;
-    
 }
 
 .copy-thumbnail{
@@ -308,12 +299,11 @@ color: darkgray;
     width: 150px;
 }
 
-
-
 .thumbnail-channel, .thumbnail-views{
     font-size: 16px;
     color:rgb(90, 90, 90);
 }
+
 aside{
     background-color: whitesmoke;
     margin-left: 20px;
@@ -327,8 +317,6 @@ aside{
     }
 /* CSS aside bar*/
 
-
-
 /* The switch - the box around the slider */
 .switch{
     position: relative;
@@ -336,17 +324,17 @@ aside{
     width: 30px;
     height: 17px;
     margin-left: 10px;
-  }
+}
   
-  /* Hide default HTML checkbox */
-  .switch input {
+/* Hide default HTML checkbox */
+.switch input {
     opacity: 0;
     width: 0;
     height: 0;
   }
   
   /* The slider */
-  .slider {
+.slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -358,7 +346,7 @@ aside{
     transition: .4s;
   }
   
-  .slider:before {
+.slider:before {
     position: absolute;
     content: "";
     height: 13px;
@@ -368,42 +356,41 @@ aside{
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
-  }
+}
   
-  input:checked + .slider {
+input:checked + .slider {
     background-color: #2196F3;
-  }
+}
   
-  input:focus + .slider {
+input:focus + .slider {
     box-shadow: 0 0 1px #2196F3;
-  }
+}
   
-  input:checked + .slider:before {
+input:checked + .slider:before {
     -webkit-transform: translateX(13px);
     -ms-transform: translateX(13px);
     transform: translateX(13px);
-  }
+}
   
-  /* Rounded sliders */
-  .slider.round {
+/* Rounded sliders */
+.slider.round {
     border-radius: 17px;
-  }
+}
   
-  .slider.round:before {
+.slider.round:before {
     border-radius: 50%;
-  }
-  /* The switch - the box around the slider */
+}
+/* The switch - the box around the slider */
 
   
-  /* footer */
+/* footer */
+footer{
+    background: white;
+    width: 1050px;
+    margin: auto;
+}
 
-  footer{
-      background: white;
-      width: 1050px;
-      margin: auto;
-  }
-
-  .btnf{
+.btnf{
     height: 40px;
     background: lightgray;
     margin-left: 25px;
@@ -454,26 +441,26 @@ aside{
     display: flex;
     align-items: center;
     border-bottom: 1px solid darkgray;
-    margin: 0px 15px;}
-   
-    
+    margin: 0px 15px;
+}
 
-    .footer-menu1{
-        list-style-type: none;
-        margin-bottom: 6px;
-    }
+.footer-menu1{
+    list-style-type: none;
+    margin-bottom: 6px;
+}
 
-    .footer-menu2{
-        list-style-type: none;
-        font-size: 12px;
-        color: rgb(117, 116, 116);
-        margin: 6px 0px;
-    }
-    ul li{
-        display: inline;
-        margin-left: 25px;
-      }
+.footer-menu2{
+    list-style-type: none;
+    font-size: 12px;
+    color: rgb(117, 116, 116);
+    margin: 6px 0px;
+}
 
-      #first-line{
-        margin-left: 0;
-      }
+ul li{
+    display: inline;
+    margin-left: 25px;
+}
+
+#first-line{
+    margin-left: 0;
+}
