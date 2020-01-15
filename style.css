@@ -52,14 +52,13 @@ body{
 }
 
 .searchbar{
-    width: 679px;
-    padding-left: 40px;
+    width: 650px;
     display: flex;
     height: 21px;
  }
 
  .form{
-    width: 679px;
+    width: 650px;
     display: flex;
     align-items: center;
     height: 21px;
@@ -81,7 +80,7 @@ body{
 }
 
 .up-sign{
-    width:150px;
+    width:200px;
    display: flex;
    align-items: center;
    flex-wrap: nowrap;
@@ -91,28 +90,40 @@ body{
 #up-button{
     width: 20px;
     margin-right: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
-.sign-button{
-    background: rgb(22, 122, 198);;
-    width: 45px;
+
+#bell-icon{
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#grid-icon{
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#sign-button{
+    background: rgb(22, 122, 198);
+    width: 55px;
     height: 21px;
     text-decoration: none;
     color: #fff;
     font-size: 11px;
     margin: 10px;
-    padding: 5px;
     box-sizing: border-box;
     text-align: center;
     vertical-align: middle;
     font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(22, 122, 198);
 }
 
-.sign-button a{
+/* #sign-button a{
     color: #fff;
     text-decoration: none;
-}
+} */
 /* CSS Nav BAR */
 
 
