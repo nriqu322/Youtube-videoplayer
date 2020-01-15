@@ -68,10 +68,14 @@ body{
     width: 36px;
     height: 21px;
     border:0.5px solid lightgrey;
-    padding: 4px 12px;
     box-sizing: border-box; 
     align-items: center;
     background: rgb(248, 248, 248);  
+}
+
+#image-search{
+    width: 20px;
+    height: 13px;
 }
 
 #form-search{
@@ -135,6 +139,15 @@ body{
 .subs-img{
     height: 30px;
     width: 100px;
+    padding: 0;
+    border: 0;
+}
+#subs-btn{
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    width: 100px;
+    border: 0;
 }
 
 #plus-icon{
@@ -197,9 +210,12 @@ body{
     margin: 0px;
 }
 
-.subs-img,.channel-name{
+.channel-name{
     margin: 0;
-    padding-left: 1rem;
+}
+
+.channel-icon{
+    padding-right: 10px;
 }
 
 .subs{
@@ -241,6 +257,7 @@ body{
     border-top: 10px solid lightgray;
     border-bottom: 1px solid darkgray;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0 10px;
 }
 
 #info-paragraph{
@@ -323,7 +340,7 @@ aside{
     width: 490;
 }
 
-#show-more{
+.show-more{
     color: rgb(100, 98, 98);
     text-align: center;
     margin-bottom: 0px;
