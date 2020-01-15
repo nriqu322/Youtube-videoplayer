@@ -57,12 +57,12 @@ body{
     height: 21px;
  }
 
- .form{
+.form{
     width: 650px;
     display: flex;
     align-items: center;
     height: 21px;
- }
+}
 
 .search-icon{
     width: 36px;
@@ -120,10 +120,6 @@ body{
     border-color: rgb(22, 122, 198);
 }
 
-/* #sign-button a{
-    color: #fff;
-    text-decoration: none;
-} */
 /* CSS Nav BAR */
 
 
@@ -133,8 +129,7 @@ body{
 }
 
 .section-video{
-    background: white;
-    
+    background: white;    
 }
 
 .subs-img{
@@ -167,14 +162,16 @@ body{
     background-position: center;
 }
 #like-btn{
-    background-image: url('media/like-icon.jpg');
-    background-size: 25px 30px;
+    background-image: url('media/like-icon.png');
+    background-size: 20px 25px;
     background-position: center;
+    background-repeat: no-repeat;
 }
 #dislike-btn{
     background-image: url('media/dislike-icon.png');
     background-size: 25px 30px;
     background-position: center;
+    background-repeat: no-repeat;
 }
 .icon{
     height: 25px;
